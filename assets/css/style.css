@@ -2,7 +2,30 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+nav {
+    position: fixed;
+    /* top: 0; */
+}
+
 h1 {
     font-size: 5vw;
     text-align: center;
+}
+
+.portfolio-action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-link {
+    text-transform: capitalize !important;
+}
+
+#about {
+    padding-top: 50px;
+}
+
+#headshot {
+    border-radius: 5px;
+    box-shadow: 0 0 4px black;
 }

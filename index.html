@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Jacobson</title>
 
-    <!-- Fonts -->
+    <!-- Fonts and icons -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Material+Icons&display=swap"
+        rel="stylesheet">
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- My CSS -->
@@ -29,24 +28,35 @@
 <body>
     <nav>
         <div class="nav-wrapper blue-grey darken-1">
-            <a href="#" class="brand-logo center">John Jacobson</a>
+            <a class="brand-logo center">John Jacobson</a>
             <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">About Me</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-            <ul class="sidenav" id="mobile-nav">
-                <li><a href="#">About Me</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </div>
     </nav>
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
     <main class="container">
-        <section class="row" id="title-row">
-            <div class="col s12">
-                <h1>Hi, I'm John Jacobson, and I'm a software developer</h1>
+        <section id="about">
+            <div class="row">
+                <div class="col s12">
+                    <h1>Hi, I'm John Jacobson, and I'm a software developer</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 offset-s3 m4 xl3"><img src="assets/images/headshot.jpg"
+                        alt="Picture of John Jacobson" class="responsive-img" id="headshot"></div>
+                <div class="col s12 m8 xl9">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore eum, adipisci unde,
+                        architecto, quae error harum reprehenderit nobis excepturi fugiat quibusdam dicta beatae
+                        sapiente accusamus sit provident! Iusto, labore reprehenderit.</p>
+                </div>
             </div>
         </section>
     </main>
