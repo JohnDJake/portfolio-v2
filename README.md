@@ -28,6 +28,8 @@ No installation is necessary.
 
 Click on the deployed link above!
 
+![Screenshot of the webpage](assets/images/screenshot.png)
+
 
 
 ## License
