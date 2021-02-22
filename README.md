@@ -6,7 +6,7 @@
 
 This is my updated portfolio. It has a basic bio, some examples of my work, and contact information.
 
-Check it out deployed at [johndjake.com](https://johndjake.github.io/portfolio-v2/).
+Check it out deployed [here](https://johndjake.github.io/portfolio-v2/).
 
 
 
